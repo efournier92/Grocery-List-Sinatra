@@ -8,7 +8,7 @@ The app allows users to input a grocery item into the text field, along with the
 
 The inputed data is persisted via a .csv file: `grocery_list.csv`.
 
-All feature development was driven via RSPEC acceptance tests, located in the `spec` folder.
+All feature development was driven via RSpec acceptance tests, located in the `spec` folder.
 
 ###Features
 * Visiting `GET /` redirects user to `GET /groceries`.
