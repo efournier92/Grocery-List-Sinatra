@@ -2,7 +2,7 @@
 
 This is an app I built during my first week of using Sinatra, while honing my HTTP skills with Launch Academy.
 
-I used it to practice generating a dynamic web page in response to a `GET` request, and persisting information from a user submitted via a `POST` request.
+I built it to practice generating a dynamic web page in response to a `GET` request, and persisting information from users submitted via a `POST` request.
 
 The app allows users to input a grocery item into the text field, along with the quantity of that item to buy.
 
