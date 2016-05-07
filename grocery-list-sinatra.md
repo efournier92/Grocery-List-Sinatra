@@ -1,4 +1,4 @@
-### Instructions
+### Sinatra Grocery List Site
 
 Write a web application to manage a grocery list. It should display the groceries currently on the list and provide a form for adding a new item to buy.
 

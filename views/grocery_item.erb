@@ -1,19 +1,7 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <title>Grocery Item</title>
-</head>
-
-<body>
-  <h2><li><%="ITEM: #{@item}" %></li>
-    <% @groceries_array.each do |item| %>
-    <% if item[0] == @item %>
-      <li><%= "QUANTITY: #{item[1]}" %></li>
-    <% end %>
-    <% end %>
-  </h2>
-</body>
-
-</html>
+<h2><li><%="ITEM: #{@item}" %></li>
+  <% @groceries_array.each do |item| %>
+  <% if item[0] == @item %>
+    <li><%= "QUANTITY: #{item[1]}" %></li>
+  <% end %>
+  <% end %>
+</h2>

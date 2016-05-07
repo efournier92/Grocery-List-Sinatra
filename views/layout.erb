@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>GroceryLister</title>
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/bootstrap-responsive.css">
+  <style>
+  body {
+    padding-top: 60px;
+    background-color: #FFFFCC;
+  }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">GroceryLister</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <%= yield %>
+
+  <script> src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" </script>
+  <script>window.jQuery || document.write('<script src="js/jquery-1.7.1.min.js"><\/script>')</script>
+  <script src="/js/bootsrtap.min.js"> </script>
+</body>
+</html>
