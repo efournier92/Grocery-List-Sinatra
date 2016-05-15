@@ -1,0 +1,6 @@
+<h1> <%= @item_name %> </h1>
+  <ul>
+    <% @items.each do |item| %>
+      <li><%= item['body'] %></li>
+    <% end %>
+  </ul>

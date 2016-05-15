@@ -1,0 +1,13 @@
+DROP TABLE IF EXISTS comments;
+DROP TABLE IF EXISTS groceries;
+
+CREATE TABLE groceries(
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE comments (
+  id SERIAL PRIMARY KEY,
+  body VARCHAR(500) NOT NULL,
+  grocery_id INTEGER NOT NULL REFERENCES groceries
+);
