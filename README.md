@@ -6,7 +6,7 @@ I built it to practice generating a dynamic web page in response to a `GET` requ
 
 The app allows users to input a grocery item into the text field, along with the quantity of that item to buy.
 
-The inputed data was originally persisted via a .csv file: `grocery_list.csv`. Version 2.0 upgrades to a PostgreSQL database to handle persistence.
+The input data was originally persisted via a .csv file: `grocery_list.csv`. Version 2.0 upgrades to a PostgreSQL database to handle persistence.
 
 All feature development was driven via RSpec acceptance tests, located in the `spec` folder.
 
@@ -24,7 +24,3 @@ All feature development was driven via RSpec acceptance tests, located in the `s
 * The form submits to `POST /groceries` which saves the new item to the `grocery_list.csv` file.
 * The `data.sql` file contains SQL statements for inserting a grocery item, as well as inserting two or more comments for that grocery item in the `data.sql` file.
 
-###ScreenShots
-
-![]()
-![]()
